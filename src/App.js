@@ -50,7 +50,7 @@ export default function App() {
   };
 
   const smoothScroll = () => {
-    if (currentPage > 2) {
+    if (currentPage > 1) {
       window.scrollTo({
         top: document.documentElement.scrollHeight,
         behavior: 'smooth',
